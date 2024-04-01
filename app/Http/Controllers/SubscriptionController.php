@@ -89,6 +89,12 @@ class SubscriptionController extends Controller
         return redirect()->route('subscription.index')->with('success', 'Subscription deleted successfully!');
     }
 
+    public function show($id)
+    {
+        $subscription = Subscription::find($id);
+        return response()->json($subscription);
+    }
+
 
 
 }
