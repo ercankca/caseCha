@@ -1,4 +1,4 @@
-Postman Api bağlantısı işlemleri ;
+Postman Api bağlantı işlemleri ;
 
 GET Metodu
 1- {host}/api/subscriptions/1   -> abonelik listeleme // id :  1 için 
