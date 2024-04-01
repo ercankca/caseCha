@@ -1,10 +1,9 @@
 Postman Api bağlantı işlemleri ;
 
-GET Metodu
-1- {host}/api/subscriptions/1   -> abonelik listeleme // id :  1 için 
+1-  {host}/api/subscriptions/1   -> abonelik listeleme // id :  1 için GET Metodu kullanılır
 
-POST Metodu 
-2 - abonelik oluşturma 
+
+2 - abonelik oluşturma   POST Metodu  kullanılır
 {host}/api/subscriptions  
 {
     "user_id": 1,
