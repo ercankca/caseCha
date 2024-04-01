@@ -29,3 +29,5 @@ Route::group(['middleware' => 'auth'], function () {
     Route::delete('/destroy/{id}', [SubscriptionController::class, 'destroy'])->name('subscription.destroy');
 });
 
+Route::get('/subscriptions/{id}', [SubscriptionController::class, 'show']);
+
